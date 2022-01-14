@@ -509,28 +509,33 @@ a:focus {
     font-size: 16px;
 }
 
-.about .skills {
+.about .contacts {
     margin-bottom: 30px;
 }
 
-.about .skill-name {
+.about .contact-name {
     margin-top: 15px;
 }
 
-.about .skill-name p {
+.about .contact-name p {
     display: inline-block;
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.about .skill-name p:last-child {
+.about .contact-name p:last-child {
     margin-left: 1em;
 }
-
- 
-
- 
+.contact-links{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.contact-links div {
+   margin-right: 15px;
+}
 
 .about .about-text a.btn {
     margin-top: 15px;
@@ -727,13 +732,13 @@ a:focus {
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
-.service {
+.certification {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
 }
 
-.service .service-item {
+.certification .certification-item {
     position: relative;
     margin-bottom: 30px;
     display: flex;
@@ -742,11 +747,11 @@ a:focus {
     transition: ease-out 0.5s;
 }
 
-.service .service-item:hover {
+.certification .certification-item:hover {
     box-shadow: inset 800px 0 0 0 var(--main-color);
 }
 
-.service .service-icon {
+.certification .certification-icon {
     position: relative;
     width: 150px;
     min-height: 150px;
@@ -757,48 +762,48 @@ a:focus {
     background: #ffffff;
 }
 
-.service .service-icon i {
+.certification .certification-icon i {
     position: relative;
     font-size: 60px;
     color: var(--main-color);
     transition: .3s;
 }
 
-.service .service-item:hover i {
+.certification .certification-item:hover i {
     font-size: 75px;
 }
 
-.service .service-text {
+.certification .certification-text {
     position: relative;
     width: calc(100% - 120px);
     padding: 0 30px;
 }
 
-.service .service-text h3 {
+.certification .certification-text h3 {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
     transition: 1s;
 }
 
-.service .service-text p {
+.certification .certification-text p {
     margin: 0;
     font-size: 16px;
     transition: 1s;
 }
 
-.service .service-item:hover .service-text h3,
-.service .service-item:hover .service-text p {
+.certification .certification-item:hover .certification-text h3,
+.certification .certification-item:hover .certification-text p {
     color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
-    .service .service-text h3 {
+    .certification .certification-text h3 {
         font-size: 16px;
         margin-bottom: 5px;
     }
     
-    .service .service-text p {
+    .certification .certification-text p {
         font-size: 14px;
     }
 }
