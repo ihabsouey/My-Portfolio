@@ -848,7 +848,11 @@ a:focus {
 
 .portfolio .portfolio-item:hover img {
     transform: scale(1.1);
-    
+        
+}
+.portfolio .portfolio-item:hover .portfolio-img-description {
+    visibility: visible;
+        
 }
 
 .portfolio .portfolio-text {
@@ -935,4 +939,19 @@ a:focus {
     padding: 10px;
     
   
+}
+.portfolio-img-description{
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    padding: 20% 10px;
+    padding-top: auto;
+    position: absolute;
+    left: 0;
+    top :0;
+    font-size: 18px;
+    visibility: hidden;
+    color: white;
+    
 }
