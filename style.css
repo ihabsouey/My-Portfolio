@@ -831,7 +831,8 @@ a:hover {
 }
 
 .portfolio .portfolio-item:hover .portfolio-img-description {
-    opacity: 1;
+    background-color: black;
+    opacity: 0.5;
     transition-duration: .8s;
     transition-timing-function: ease-in-out;
 }
@@ -903,7 +904,7 @@ a:hover {
 
 .portfolio-img-description {
     text-align: center;
-    --background-color: rgba(0, 0, 0, .7);
+    --background-color: rgba(255, 255, 255, 1);
     height: 100%;
     padding: 20% 10px;
     padding-top: auto;
